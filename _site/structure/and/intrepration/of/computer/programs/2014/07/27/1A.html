@@ -1,0 +1,34 @@
+<p>Computer science is a bad term and doesn’t describe the deeper and hidden processes in the same way that Biology is not just about using microscopes and petri dishes. Computer science is more than just using a computer to solve problems.</p>
+
+<p><em>Computer Science</em> is beautiful in that the barrier between what you can imagine and what you can build is pretty thin. Unlike other disciplines, like engineering where making components has a physical limitation. You can’t stack a million amplifiers and expect zero noise propagation, whereas computer science has <em>ideal components</em>. Pure functions can be stacked fed into each other without error propagating.</p>
+
+<p>The idea of black box abstraction allows us to encapsulate ideas and pass them around.</p>
+
+<p>In Lisp, as for any language, there are three main things.</p>
+
+<p><strong>1. Primitive Elements</strong></p>
+
+<p>What are the elementary building blocks of the language?</p>
+
+<p>Here are some:</p>
+
+<p><code class="highlighter-rouge">(</code> <code class="highlighter-rouge">)</code> <code class="highlighter-rouge">+</code> <code class="highlighter-rouge">5</code> and <code class="highlighter-rouge">2</code></p>
+
+<p><strong>2. Combinations</strong></p>
+
+<p>How do we combine elementary building blocks to form ideas?</p>
+
+<p><code class="highlighter-rouge">(+ 5 2)</code></p>
+
+<p>The <code class="highlighter-rouge">+</code> is the operator and takes two operands <code class="highlighter-rouge">5</code> and <code class="highlighter-rouge">2</code>. Basic syntax for Lisp uses prefix notation. Parenthesis make combinations unambiguous and are necessary. A linear sequence of characters describes a tree of operations.</p>
+
+<p><code class="highlighter-rouge">(+ 3 (+ 1 4) 7 8)</code></p>
+
+<p><strong>3. Abstractions</strong></p>
+
+<p>How do we abstract these combinations out?</p>
+
+<p><code class="highlighter-rouge">(defn square [x] (* x x))</code> <a href="http://clojure.org/functional_programming">Clojure’s syntax</a></p>
+
+<p>Here, we’re defining a process of taking some value <code class="highlighter-rouge">x</code> and multiplying <code class="highlighter-rouge">*</code> it by itself and naming it <code class="highlighter-rouge">square</code>. In essence, the symbol <code class="highlighter-rouge">square</code> is just a name for <code class="highlighter-rouge">lambda(x)</code>, which is a signal that means <em>make a procedure</em> for <code class="highlighter-rouge">x</code>.</p>
+

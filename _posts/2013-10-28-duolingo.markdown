@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Duolingo"
+date: 2013-10-28 06:56:56
+categories: language
+---
+
+If you're looking for a wonderful app to add to your arsenal in learning that new language, check out Duolingo. It's available for both IOS and Android. It's clean interface automatically track what levels you've completed. Each level contains one or more blocks and within those blocks are bite sized lessons. The lessons consists of choosing from a set of correct and incorrect vocabulary to match the sentences of your new language, speaking to match phrases, translating and writing the sentences you hear in your learning language. To make things challenging, you have three hearts to survive a lesson and lose hearts for mistakes. You can add friends for motivation or competition and see their progress in terms of gold coins earned. I urge you to try it out and hold on to your hearts!

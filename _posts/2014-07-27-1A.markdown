@@ -1,0 +1,45 @@
+---
+layout: post
+title: "1A Overview and Introduction to Lisp"
+date: 2014-07-27  23:03:33
+categories: structure and intrepration of computer programs
+---
+
+Computer science is a bad term and doesn't describe the deeper and hidden processes in the same way that Biology is not just about using microscopes and petri dishes. Computer science is more than just using a computer to solve problems.
+
+_Computer Science_ is beautiful in that the barrier between what you can imagine and what you can build is pretty thin. Unlike other disciplines, like engineering where making components has a physical limitation. You can't stack a million amplifiers and expect zero noise propagation, whereas computer science has _ideal components_. Pure functions can be stacked fed into each other without error propagating.
+
+The idea of black box abstraction allows us to encapsulate ideas and pass them around.
+
+In Lisp, as for any language, there are three main things.
+
+**1. Primitive Elements**
+
+What are the elementary building blocks of the language?
+
+Here are some:
+
+`(` `)` `+` `5` and `2`
+
+
+**2. Combinations**
+
+How do we combine elementary building blocks to form ideas?
+
+`(+ 5 2)`
+
+The `+` is the operator and takes two operands `5` and `2`. Basic syntax for Lisp uses prefix notation. Parenthesis make combinations unambiguous and are necessary. A linear sequence of characters describes a tree of operations.
+
+`(+ 3 (+ 1 4) 7 8)`
+
+**3. Abstractions**
+
+How do we abstract these combinations out?
+
+`(defn square [x] (* x x))` [Clojure's syntax](http://clojure.org/functional_programming)
+
+Here, we're defining a process of taking some value `x` and multiplying `*` it by itself and naming it `square`. In essence, the symbol `square` is just a name for `lambda(x)`, which is a signal that means _make a procedure_ for `x`.
+
+
+
+
